@@ -14,10 +14,15 @@ void main() {
           // ignore: prefer_const_constructors
           //CONTAINER:
         ), body:Center(
-        child: Container(
+        child: Column(
+children: [
+  Image.asset('images/abc.jpg',semanticLabel: 'no found pic error throw',height: 400,
+    width: 400,),
 
-          child: Image.asset('images/abc.jpg',semanticLabel: 'no found pic error throw',height: 400,
-            width: 400,),
+  Image.asset('images/camera.jpg',semanticLabel: 'no found pic error throw',height: 200,
+    width: 400,),
+],
+
         ),
   ),
   ),

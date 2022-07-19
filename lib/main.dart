@@ -1,54 +1,54 @@
 // ignore_for_file: prefer_const_constructors
 
-import 'dart:js';
-
-import 'package:flutter/material.dart';
-
-void main() {
-  //var _size = 200.0;
-  runApp(MaterialApp(
-    home: Scaffold(
-      appBar: AppBar(
-
-
-
-        title: Text('sample app'),
-        // ignore: prefer_const_constructors
-        //CONTAINER:
-      ), body:Center(
-      child: Container(
-
-child: Image.network('https://www.istockphoto.com/photo/indian-white-collar-male-worker-in-wheelchair-having-cheerful-discussion-leading-gm1331470022-414602714?utm_source=unsplash&utm_medium=affiliate&utm_campaign=category_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fimages&utm_term=images%3A%3A%3A'),
-      ),
-        // child: Stack(
-        //      clipBehavior: Clip.none,
-        //       children: [
-        //         Container(
-        //           height: 250,
-        //           width: 250,
-        //           color: Colors.blue,
-        //         ),
-        //         Container(
-        //           height: 200,
-        //           width: 200,
-        //           color: Colors.pink,
-        //         ),
-        //         Positioned(
-        //           bottom: -100,
-        //          right: -50,
-        //
-        //          child:Container(
-        //           height: 150,
-        //           width: 150,
-        //           color: Colors.yellow,
-        //         ),),
-        //       ],
-        //
-        // ),
-      ),
-    )
-
-    ),
+// import 'dart:js';
+//
+// import 'package:flutter/material.dart';
+//
+// void main() {
+//   //var _size = 200.0;
+//   runApp(MaterialApp(
+//     home: Scaffold(
+//       appBar: AppBar(
+//
+//
+//
+//         title: Text('sample app'),
+//         // ignore: prefer_const_constructors
+//         //CONTAINER:
+//       ), body:Center(
+//       child: Container(
+//
+// child: Image.network('https://www.istockphoto.com/photo/indian-white-collar-male-worker-in-wheelchair-having-cheerful-discussion-leading-gm1331470022-414602714?utm_source=unsplash&utm_medium=affiliate&utm_campaign=category_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fimages&utm_term=images%3A%3A%3A'),
+//       ),
+//         // child: Stack(
+//         //      clipBehavior: Clip.none,
+//         //       children: [
+//         //         Container(
+//         //           height: 250,
+//         //           width: 250,
+//         //           color: Colors.blue,
+//         //         ),
+//         //         Container(
+//         //           height: 200,
+//         //           width: 200,
+//         //           color: Colors.pink,
+//         //         ),
+//         //         Positioned(
+//         //           bottom: -100,
+//         //          right: -50,
+//         //
+//         //          child:Container(
+//         //           height: 150,
+//         //           width: 150,
+//         //           color: Colors.yellow,
+//         //         ),),
+//         //       ],
+//         //
+//         // ),
+//       ),
+//     )
+//
+//     ),
 
 
   //scaffolding designs:
@@ -94,12 +94,12 @@ child: Image.network('https://www.istockphoto.com/photo/indian-white-collar-male
        // onPressed:(){},
 
       //icons button:
-      child: Center(
-           child: IconButton(
-          icon:Image.network('https://www.pexels.com/photo/silhouette-photo-of-woman-holding-lights-3792581/'),
-        onPressed: (){},
-         iconSize:100,
-  ));
+  //     child: Center(
+  //          child: IconButton(
+  //         icon:Image.network('https://www.pexels.com/photo/silhouette-photo-of-woman-holding-lights-3792581/'),
+  //       onPressed: (){},
+  //        iconSize:100,
+  // ),),
 
          //icons:
       //child:Center(
@@ -212,7 +212,7 @@ child: Image.network('https://www.istockphoto.com/photo/indian-white-collar-male
 
    // ),),));
 
-}
+// }
 
 
 
